@@ -16,4 +16,4 @@ Javascript was used to print out my fullname as required in the HNGi8 stage 2 as
 
 ## Screen Capture of My Resume
 
-<img src="assets/img/Resume_Capture.png">
+<img src="Resume_Capture.png">

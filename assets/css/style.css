@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    background-color: rgb(240, 236, 236);
+    position: relative;
+}
+
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    cursor: pointer;
+}
+
+header.head {
+    background-color: #222A33;
+    color: #fff;
+}
+
+
+/*----styling for nav-bar---*/
+
+h1 {
+    padding: .7em 0px 0px 2em;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+nav h4 {
+    color: #449399;
+    padding-left: 4em;
+    font-size: 20px;
+}
+
+nav p {
+    padding: 1.5em 5em 1.8em 5em;
+    line-height: 1.2em;
+}
+
+
+/*----styling for socials---*/
+
+section.socials {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #313C4E;
+    color: #fff;
+    padding: 1.5em 18.5em 1.8em 5em;
+    /* padding: 1.5em 16.5em 1.8em 5em; */
+}
+
+.socials a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.socials img {
+    margin-top: .3em;
+}
+
+.socials a:hover {
+    color: #449399;
+    text-decoration: underline;
+}
+
+
+/*----styling for main---*/
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul li {
+    color: #000;
+    content: "\2022";
+    font-weight: 400;
+    display: inline-block;
+    padding-right: .5em;
+    line-height: 20px;
+}
+
+ul li:before {
+    color: #449399;
+    content: "\2022";
+    font-weight: bold;
+    display: inline-block;
+    padding-right: .5em;
+}
+
+ul {
+    list-style: none;
+}
+
+main.details {
+    background-color: #fff;
+    padding: 0 0em 0 5em;
+}
+
+h2 {
+    color: #449399;
+    margin: 1.1em 0 .5em 0;
+    text-transform: uppercase;
+}
+
+
+/*----styling for education---*/
+
+.date {
+    color: #449399;
+    font-style: italic;
+    margin: .5em 0;
+    font-weight: 500;
+}
+
+.achievement {
+    color: #449399;
+    font-style: italic;
+    margin: .3em 0;
+    font-weight: 500;
+}
+
+.education h2 {
+    border-bottom: 4px solid #449399;
+    width: 22%;
+}
+
+.education h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+/*----styling for work experience---*/
+
+.work-experience h2 {
+    border-bottom: 4px solid #449399;
+    width: 36%;
+}
+
+.work-experience h3 {
+    font-size: 22px;
+    margin: .6em 0 .2em 0;
+}
+
+.work-experience h4 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+/*----styling for referee---*/
+
+.referee h2 {
+    border-bottom: 4px solid #449399;
+    width: 16.4%;
+}
+
+
+/*----styling for skills---*/
+
+div.details-right {
+    width: 100%;
+}
+
+.skills button {
+    background-color: #989da6;
+    border: 2px solid #989da6;
+    text-transform: capitalize;
+    color: #fff;
+    height: 25px;
+    margin: .3em;
+    border-radius: 4px;
+    padding: .2em;
+}
+
+.skills h2 {
+    border-bottom: 4px solid #449399;
+    width: 12.5%;
+}
+
+
+/*----styling for personal-project---*/
+
+.personal-project h2 {
+    border-bottom: 4px solid #449399;
+    width: 41%;
+}
+
+.personal-project a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.personal-project a:hover {
+    color: #449399;
+    text-decoration: underline;
+}
+
+
+/*----styling for certification---*/
+
+.certificates h2 {
+    border-bottom: 4px solid #449399;
+    width: 26.5%;
+}
+
+.certificates h5 {
+    font-size: 18px;
+    margin-top: .8em;
+    font-weight: 500;
+}
+
+.certificates p {
+    color: #6c6d6e;
+    font-style: italic;
+}
+
+
+/*----styling for language---*/
+
+section.languages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: .1em;
+}
+
+.languages-h2 {
+    border-bottom: 4px solid #449399;
+    width: 23%;
+}
+
+.language-right {
+    padding-right: 7em;
+}
+
+.languages h5 {
+    margin-top: .3em;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.languages p {
+    color: #484a4b;
+    font-style: italic;
+}
+
+
+/*----styling for interest---*/
+
+.interests {
+    margin-bottom: 1em;
+}
+
+.interests button {
+    background-color: #fff;
+    border: 2px solid #989da6;
+    text-transform: capitalize;
+    color: #000;
+    height: 25px;
+    margin: .3em;
+    border-radius: 4px;
+    padding: .2em;
+}
+
+.interests h2 {
+    border-bottom: 4px solid #449399;
+    width: 20.5%;
+}
+
+
+/*----styling for footer---*/
+
+footer {
+    width: 100%;
+    background-color: #222A33;
+    color: #fff;
+    text-align: center;
+    margin-top: 2em;
+}
+
+footer h6 {
+    font-size: 30px;
+    text-align: center;
+}
+
+footer #btn {
+    background-color: #222A33;
+    border: 3px solid #449399;
+    border-radius: 10px;
+    width: 18%;
+    font-size: 18px;
+    height: 8vh;
+    margin: 1.5em;
+    text-transform: uppercase;
+}
+
+footer #btn:hover {
+    background-color: #449399;
+    border: 2px solid #449399;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width:480px) {
+    #details {
+        display: block;
+    }
+    h1 {
+        padding: .7em 0px 0px 1em;
+    }
+    nav h4 {
+        padding-left: 2em;
+    }
+    nav p {
+        padding: 1.5em 6em 1.8em 2.5em;
+        line-height: 1.2em;
+    }
+    section.socials {
+        flex-direction: column;
+        padding: 1.5em 12em 1.8em 3em;
+        font-size: 15px;
+        line-height: 17px;
+    }
+    main.details {
+        padding-left: 2.5em;
+    }
+    h2 {
+        color: #449399;
+        margin: 1.1em 0 .5em 0;
+        font-size: 16px;
+    }
+    .skills button {
+        height: 22px;
+        margin: .1em;
+        padding: .1em;
+    }
+    .work-experience h2 {
+        border-bottom: 4px solid #449399;
+        width: 62%;
+    }
+    .work-experience h3 {
+        font-size: 15px;
+    }
+    .work-experience h4 {
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .date {
+        font-size: 14px;
+    }
+    .achievement {
+        font-size: 14px;
+    }
+    .personal-project h2 {
+        width: 29%;
+    }
+    .certificates h2 {
+        width: 39%;
+    }
+    .languages-h2 {
+        width: 34.2%;
+    }
+    .interests h2 {
+        width: 30%;
+    }
+    .education h2 {
+        width: 60%;
+    }
+    .skills h2 {
+        width: 19%;
+    }
+    .referee h2 {
+        width: 44%;
+    }
+    footer h6 {
+        font-size: 25px;
+        padding-top: .5em;
+    }
+    footer #btn {
+        border-radius: 10px;
+        border: 2px solid #449399;
+        width: 38%;
+        font-size: 15px;
+        height: 8vh;
+        margin: 1.6em 0 .5em 0;
+        font-weight: 600;
+    }
+}

@@ -146,7 +146,7 @@ h2 {
 
 .work-experience h2 {
     border-bottom: 4px solid #449399;
-    width: 36%;
+    width: 24%;
 }
 
 .work-experience h3 {
@@ -159,12 +159,43 @@ h2 {
     font-weight: 500;
 }
 
+.office-img {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    padding-bottom: 0.65rem;
+}
+
+.office-img h3 {
+    padding-left: 0.75rem;
+}
+
+.office-img img {
+    max-width: 2.5rem;
+    height: 2.5rem;
+    /* border-radius: 50%; */
+    background-position: center;
+    display: block;
+}
+
+#zuri-logo {
+    margin-top: 1em;
+}
+
+#MF-logo {
+    margin-top: 1em;
+}
+
 
 /*----styling for referee---*/
 
 .referee h2 {
     border-bottom: 4px solid #449399;
     width: 16.4%;
+}
+
+.referee {
+    margin-bottom: 1.5em;
 }
 
 
@@ -322,6 +353,7 @@ footer a {
 @media (max-width:480px) {
     #details {
         display: block;
+        padding-bottom: 1em;
     }
     h1 {
         padding: .7em 0px 0px 1em;
